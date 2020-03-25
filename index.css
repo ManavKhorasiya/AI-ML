@@ -1,0 +1,86 @@
+.navbar-nav{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.con{
+    border:2px solid transparent;
+     padding-left: 50px;
+     padding-right: 50px;
+ }
+ 
+ .contact{
+     padding-left: 90px;
+     padding-right: 90px;
+ }
+ 
+ ul li:hover{
+     background-color:rgb(211,211,211);
+     font-weight: bolder;
+ }
+ .carousel-item{
+     padding-right: 0px;
+     padding-left: 0px;
+ }
+ .hello1{
+    height: 720px;
+     width: 1250;
+ }
+ .hello2{
+    height: 720px;
+     width: 1300;
+ }
+ .hello3{
+    height: 720px;
+     width: 1300;
+ }
+ h3 {
+     font-family: Bookman Header;
+     font-style: bold;
+ }
+ .a {
+     height: 5px;
+     background-color: black;
+     margin-right: 10%;
+     margin-left: 10%;
+ }
+ @media (max-width: 600.98px) { 
+     .con{
+         border:2px solid transparent;
+     padding-left: 20px;
+     padding-right: 10px;
+     }
+ }
+ @media (max-width: 600.98px) { 
+     .hello1{
+         height: 250px;
+     }
+ }
+ @media (max-width: 600.98px) { 
+     .hello2{
+         height: 250px;
+     }
+ }
+ @media (max-width: 600.98px) { 
+     .hello3{
+         height: 250px;
+     }
+ }
+ @media (max-width: 600.98px) { 
+    .hello4{
+        padding-top: 4px;
+        text-align:center;
+    }
+    @media (max-width: 600.98px) { 
+        .hello5{
+            padding-top: 4px;
+            text-align:center;
+        }
+        @media (max-width: 600.98px) { 
+            .hello6{
+                padding-top: 4px;
+                text-align:center;
+            }
+            @media (max-width: 600.98px) { 
+                .hello7{
+                    text-align:center;
+                }
