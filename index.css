@@ -1,5 +1,5 @@
 .navbar-nav{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial;
     font-size: 20px;
 }
 .con{
@@ -72,6 +72,7 @@
      margin-left: 10%;
  }
 
+ 
 #menu {
     margin-right: 5%;
 }
