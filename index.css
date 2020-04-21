@@ -155,13 +155,34 @@ body {
     width:200px;
     margin-left: 5%;
 }
-
+.facenet {
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
 
 .bottom_location .rounded-social-buttons {
     margin-right: 10px;
 }
 
+@media(max-width : 1200px) {
+    .facenet {
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+    }
+}
+
 @media (max-width : 850.98px) {
+    .facenet {
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+    }
+    
     .hello1 {
         height: 400px;
         padding-right: 5%;
@@ -243,6 +264,7 @@ body {
         height: 75px;
         width: 150px;
     }
+    
     .main_photo {
         height: 200px;
         margin-left: auto;

@@ -11,23 +11,40 @@
     </head>
     <body>
         <div style="background-image: url(images/ai-ml3.jpg);  background-size: cover; background-color: rgba(224,224,224,0.6); background-blend-mode: lighten;">
-            <a name="top"></a>
-            <nav class="navbar navbar-expand-md navbar-light">
-                <a href ="#" class="navbar-brand">
-                        <img src="images/svnit_1.jpg" height="100"width="250" style="margin-left: 5%;"> 
-                </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="menu">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"style="font-weight: bold;"><a href="index.html" class="nav-link">Home</a></li>
-                        <li class="nav-item dropdown"style="font-weight: bold;"><a href="acs_gallery.html" class="nav-link">Gallery</a></li> 
-                        <li class="nav-item"style="font-weight: bold;"><a href="#" class="nav-link">Documentation</a></li>
-                        <li class="nav-item"style="font-weight: bold;"><a href="index.html" class="nav-link">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
+            <div style="background-color: rgba(224,224,224,0.4);">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a href ="#" class="navbar-brand">
+                            <img src="images/svnit_1.jpg" class="svnit_photo"> 
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"style="font-weight: 800;"><a href="index.html" class="nav-link" style="color:black;">Home</a></li>
+                                <li class="nav-item dropdown dropleft float-right"style="font-weight: bold;">
+                                    <a href="#" class="nav-link dropdown-toogle" data-toggle="dropdown" style="color:black;">Projects</a>
+                                    <div class="dropdown-menu dropdown-menu-right"style="background-color:rgb(0,0,0);">
+                                        <a href="#" class="dropdown-item" style="color: white;">
+                                            AUTOMATED CHECK-IN SYSTEM
+                                        </a>
+                                        <a href="aicolorization.html" class="dropdown-item" style="color: white;">
+                                            AI IMAGE COLORIZATION
+                                        </a>
+                                        <a href="gisa.html" class="dropdown-item" style="color: white;">
+                                            GISA
+                                        </a>
+                                        <a href="planet.html" class="dropdown-item" style="color: white;">
+                                            PLANET
+                                        </a>
+                                        </div>
+                                </li>
+                            <li class="nav-item"style="font-weight: bold;"><a href="acs_gallery.html" class="nav-link" style="color:black;" id = "contact">Gallery</a></li>
+                            <li class="nav-item"style="font-weight: bold;"><a href="#down" class="nav-link" style="color:black;" id = "contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
            <div class = "a"></div>
            <br>
            <!-- <div style="background-image: url(images/ai-ml3.jpg);  background-size: cover; background-color: rgba(224,224,224,0.6); background-blend-mode: lighten;"> -->
@@ -76,7 +93,7 @@
                       </video>
                      </div>    -->
                      <div class="col-lg-4 col-md-12 text-center"style="padding-top: 40px;">
-                        <img class="img-fluid " src="images/facenet.jpeg" alt="facenet pic" style="height: 300px; margin-left: 5%;">
+                        <img class="img-fluid " src="images/facenet.jpeg" alt="facenet pic" class = "facenet">
                     </div>
                     <div class="col-lg-8 col-md-12"style="padding-top: 50px;">
                     <h2 style="text-align: left; font-weight: 600; margin-left: 30%;" id = "model">MODEL</h2>
@@ -91,7 +108,7 @@
                     </ol>
                     </div>
                 </div>
-                    <br><br>
+                    
                     <div class = "row">
                         <div class="col-lg-7 col-md-12"style="padding-top: 50px;">
                     <h2 style="text-align: center; font-weight: 600;" id = "workflow">WORKFLOW</h2>
@@ -103,14 +120,14 @@
                     </p>
                         </div>
                     <div class="col-lg-5 col-md-12 text-left"style="padding-top: 40px;">
-                        <img class="img-fluid " src="images/ACS/FLOWCHART3.png" alt="flowchart pic" style="height: 300px; margin-left: 5%;">
+                        <img class="img-fluid " src="images/ACS/FLOWCHART3.png" alt="flowchart pic" class="facenet">
                     </div>
                    
                     </div>
                     <br><br>
                     <div class = "row">
                         <div class="col-lg-4 col-md-12 text-center"style="padding-top: 40px;">
-                            <img class="img-fluid " src="images/ACS/results.png" alt="facenet pic" style="height: 300px; margin-left: 5%;">
+                            <img class="img-fluid " src="images/ACS/results.png" alt="facenet pic" class="facenet">
                         </div>
                         <div class="col-lg-8 col-md-12"style="padding-top: 50px;">
                     <h2 style="text-align: center; font-weight: 600;" id  ="results">RESULTS</h2>
@@ -122,63 +139,7 @@
                 </div>
             
             <br>
-             <!--contact-->
-             <!-- <div class="row"  style="padding-top: 20px;">
-                <div class="col-md-12"><br><br>
-                    <h3 style="padding-bottom: 10px;">
-                        Get In Touch With Us:
-                    </h3><br>
-                </div>
-            </div>
-            <div class="row"> 
-                <div class="col-md-12 col-lg-7">
-                    <div class="row" style="padding-top: 10px;">
-                        <div class="col-sm-12 col-lg-1 text-center" >
-                            <img src="images/location.jpg">
-                        </div>
-                        <div class="col-sm-12 col-lg-6 hello4" style="font-size: 18px;font-weight: 500;">
-                            Drishti Lab, Near SBI, SVNIT, Surat, Gujarat
-                        </div>
-                        <br>
-                    </div>
-                    <div class="row"style="padding-top: 30px;font-weight: 500;">
-                        <div class="col-sm-12 col-lg-1 text-center">
-                                <img src="images/email.jpg">
-                        </div>
-                        <div class="col-sm-12 col-lg-4 hello5"style="font-size: 18px;font-weight: 500;">
-                                drishtiinfo.nitsurat@gmail.com
-                        </div>
-                        <br>
-                    </div>
-                    <div class="row"style="padding-top: 30px;">
-                        <div class="col-sm-12 col-lg-1 text-center" >
-                                <img src="images/phone.jpg" >
-                        </div>
-                        <div class="col-sm-12 col-lg-2 hello6"style="font-size: 18px;font-weight: 500">
-                                9726047585
-                        </div>
-                        <br>
-                    </div>
-                        <br><br>
-                        <div class="row hello7">
-                            <div class="col-lg-4 col-sm-12" style="padding-bottom: 50px;">
-                            <a href="https://www.facebook.com/drishti.nitsurat/">
-                                <img src="images/facebook.jpg">
-                            </a>
-                            <a href="https://www.youtube.com/channel/UCylC06rhz-lE3jPmOqmTnag">
-                                <img src="images/youtube.jpg" style="padding-left:10px">
-                            </a>
-                            <a href="https://github.com/DRISHTI-SVNIT">
-                                        <img src="images/github.jpg" style="padding-left:10px">
-                            </a>
-                            </div>
-                        </div>
-            </div>
-            <div class="col-md-12 col-lg-5 text-center">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d8597.359048151518!2d72.78725578473826!3d21.165749109477762!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3be04db12023ce37%3A0xb167851a625ee547!2sDRISHTI(REVOLUTIONARY%20CONCEPT)%2C%20SVNIT%20Campus%2C%20Athwa%2C%20Surat%2C%20Gujarat%20395007!3m2!1d21.1670072!2d72.7858545!5e0!3m2!1sen!2sin!4v1577283642286!5m2!1sen!2sin" width="300" height="250" frameborder="0" style="border:0;" allowfullscreen="">
-                    </iframe>
-            </div>
-        </div> -->
+            
             <div style="text-align: center;font-size: 20px; font-weight: bold;padding-top: 20px;">
                 <a href="#top"><button type="button" class="btn btn-info btn-lg" style="font-size: 18px; font-weight: bold; ">BACK TO TOP</button></a>
             </div>
