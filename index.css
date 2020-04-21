@@ -257,7 +257,7 @@ body {
     }
     .hello1 {
         height: 250px;
-        display: block;
+        display: inline-block;
         margin-left: auto;
         margin-right: auto;
     }
