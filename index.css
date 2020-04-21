@@ -304,12 +304,12 @@ body {
         margin-right: auto;
     }
     .hello2 {
-        height: 250px;
+        height: 200px;
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 0%;
-        margin-bottom: 0%;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
     .hello4 {
         height: 250px;
