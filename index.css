@@ -69,13 +69,20 @@ body {
     height: 720px;
      width: 1250;
  }
- .hello2{
+  .hello3{
     height: 720px;
      width: 1300;
  }
- .hello3{
-    height: 720px;
+ .hello4 {
+     height : 700px;
      width: 1300;
+ }
+ .hello2{
+    height: 400px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+     width: auto;
+     align-self: center;
  }
 .hello5 {
     height: 500px;
@@ -188,6 +195,18 @@ body {
         padding-right: 5%;
         padding-left: 5%;
     }
+    .hello2 {
+        height: 400px;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+    .hello4 {
+        height: 400px;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
     .hello5 {
         height : 200px;
         margin-top: 100px;
@@ -227,7 +246,8 @@ body {
  }
  @media (max-width: 600.98px) { 
      .hello2{
-         height: 250px;
+        padding-top: 4px;
+        text-align:center;
      }
  }
  @media (max-width: 600.98px) { 
@@ -283,7 +303,20 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-
+    .hello2 {
+        height: 250px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .hello4 {
+        height: 250px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .hello5 {
         height:150px;
         margin-bottom: 50px;
