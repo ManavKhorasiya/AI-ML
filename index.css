@@ -363,7 +363,8 @@ body {
         margin-right: auto;
         margin-left: auto;
         display: inline-block;
-        height: 50%;
+        width: 80%;
+        height: auto;
     }
     .main_photo {
         height: 200px;
