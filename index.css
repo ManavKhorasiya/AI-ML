@@ -27,6 +27,11 @@ body {
      color:white;
  }
 
+
+ .fk {
+     margin-left: 10%;
+ }
+
 .che {
     margin-left: auto;
     margin-right: auto;
@@ -349,6 +354,10 @@ body {
 @media (max-width : 600.98px) {
     .con {
         margin-right: 5%;
+    }
+
+    .fk {
+        margin-left: 0%;
     }
     .svnit_photo {
         margin-left: 0%;
