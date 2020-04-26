@@ -17,16 +17,26 @@
             p,ol {
                 font-size: 22px;
             }
+            .bgr {
+                background-image: url(images/ai-ml3.jpg);  
+                background-size: cover; 
+                background-color: rgba(224,224,224,0.6); 
+                background-blend-mode: lighten;
+            }
             @media(max-width:600px) {
                 p ,ol{
                     font-size:20px ;
+                }
+                .bgr {
+                    background-size: 150% 100%;
+                    /* background-position: center; */
                 }
                 
             }
         </style>
     </head>
     <body>
-        <div style="background-image: url(images/ai-ml3.jpg);  background-size: cover; background-color: rgba(224,224,224,0.6); background-blend-mode: lighten;">
+        <div class="bgr">
             <div style="background-color: rgba(224,224,224,0.4);">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <a href ="#" class="navbar-brand">
