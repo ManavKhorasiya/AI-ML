@@ -17,6 +17,11 @@
                 background-color: inherit;
                 font-weight: normal;
             }
+            @media(max-width:600px) {
+                h4 {
+                    font-size: x-large;
+                }
+            }
         </style>
     </head>
     <body>
@@ -92,7 +97,7 @@
                  </div>
                  <div class="col-lg-8 col-md-12 order-lg-2 order-1"style="padding-top: 50px;">
                  <h2 style="text-align: center; font-weight: 600; " id = "concept">CONCEPT</h2>
-                 <p style="text-align: justify; font-size: 25px;font-weight: 500;" >
+                 <p style="text-align: justify; font-size: 22px;font-weight: 500;" >
                     A deployable system is built for plants’ disease detection by training a Convolutional Neural Network model (RESNET)
                      that traces a particular disease in a particular plant species. It detects the plant disease by scanning the leaves 
                      of the species as it is trained for those illness occurring on the leaves.
@@ -103,7 +108,7 @@
             <div class = "row">
                 <div class = "col-lg-8 col-md-12" style = "padding-top: 40px;">
                     <h2 style="text-align: center; font-weight: 600;" id = "workflow">WORKFLOW</h2>
-                    <ul style="text-align: justify; font-size: 25px;font-weight: 500;">
+                    <ul style="text-align: justify; font-size: 22px;font-weight: 500;">
                         <li>A dataset containing healthy as well as infected leaf samples of various species is
                              collected and the model is trained for these using deep nets.</li>
                         <li>At the time of detection, a new sample is taken and processed in the same manner and

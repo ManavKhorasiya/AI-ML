@@ -18,6 +18,10 @@ body {
      padding-right: 50px;
  }
 
+.about-heading {
+    text-align: left;
+}
+
  .cont {
      background-color: rgba(0, 0, 0, 0.4);
      margin-left: 10%;
@@ -355,7 +359,9 @@ body {
     .con {
         margin-right: 5%;
     }
-
+    .about-heading {
+        text-align: center;
+    }
     .fk {
         margin-left: 0%;
     }

@@ -12,6 +12,16 @@
         <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
         <link rel="manifest" href="favicon_io/site.webmanifest">
         <link rel="stylesheet" type="text/css" media="screen" href="index.css">
+        <style>
+            p,ol {
+                font-size: 22px;
+            }
+            @media(max-width:600px) {
+                p ,ol{
+                    font-size:20px ;
+                }
+            }
+        </style>
     </head>
     <body>
         <div style="background-image: url(images/ai-ml3.jpg);  background-size: cover; background-color: rgba(224,224,224,0.6); background-blend-mode: lighten;">
@@ -101,10 +111,10 @@
                     </div>
                     <div class="col-lg-8 col-md-12 order-lg-2 order-1"style="padding-top: 50px;">
                     <h2 style="text-align: left; font-weight: 600; margin-left: 30%;" id = "model">MODEL</h2>
-                    <p style="text-align: justify; font-size: 22px;font-weight: 500;" class="fk" >
+                    <p style="text-align: justify; font-weight: 500;" class="fk" >
                         Model for face recognition was trained for the following techniques:
                     </p>
-                    <ol style="text-align: justify; font-size: 22px;font-weight: 500;" class="fk">
+                    <ol style="text-align: justify; font-weight: 500;" class="fk">
                         <li>FaceNet</li>
                         <li>Eigen Values</li>
                         <li>Local Binary Pattern Histograms(LBPH)</li>
@@ -116,7 +126,7 @@
                     <div class = "row">
                         <div class="col-lg-7 col-md-12"style="padding-top: 50px;">
                     <h2 style="text-align: center; font-weight: 600;" id = "workflow">WORKFLOW</h2>
-                    <p style="text-align: justify; font-size: 22px;font-weight: 500;" >
+                    <p style="text-align: justify; font-weight: 500;" >
                         We developed a real time dataset by capturing a short video clip of the people precisely to
                         be of 7-8 seconds. We further segmented it to fetch the frames by using a python code. It
                         approximately resulted in 140-150 frames per person.
@@ -135,7 +145,7 @@
                         </div>
                         <div class="col-lg-8 col-md-12 order-lg-2 order-1"style="padding-top: 50px;">
                     <h2 style="text-align: center; font-weight: 600;" id  ="results">RESULTS</h2>
-                    <p style="text-align: justify; font-size: 22px;font-weight: 500;" >
+                    <p style="text-align: justify; font-weight: 500;" >
                         We reached to an accuracy of about 84.67% while working in real time with the model. We have been continuously analyzing the approach and making efforts to increase the accuracy of the system.
                     </p>
                     </div>
