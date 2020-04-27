@@ -25,6 +25,14 @@
 
 }
 
+.rounded-social-buttons .fa-twitter, .fa-facebook, .fa-linkedin, .fa-youtube {
+   font-size: 28px;
+ }
+
+.rounded-social-buttons .fa-instagram {
+   font-size: 33px;
+}
+
 .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
    -webkit-transform: rotate(360deg);
        -ms-transform: rotate(360deg);
@@ -130,6 +138,15 @@
         transition: all 0.5s ease;
         margin-right: 0.25rem;
         margin-bottom: 0.25rem;
+    }
+
+    .rounded-social-buttons .fa-twitter, .fa-facebook, .fa-linkedin, .fa-youtube, .fa-instagram  {
+       font-size: 25px;
+    }
+
+    .rounded-social-buttons .fa-instagram {
+       font-size: 27px;
+       text-align: center;
     }
 
     .bottom_location {
