@@ -83,29 +83,7 @@
                 
             <h1 style = "text-align: center; font-weight:700 ;"><b>VIRTUON</b></h1><br>
 
-            <!--<div class="row">
-                <div class="col-lg-3 col-sm-6" style="text-align: center;">
-                    <img src = "images/gesture.png">
-                    <br>
-                   <a href="#gesture" style="color: white;"><h6 style="padding-top: 10px;padding-bottom: 10px;">GESTURE RECOGNITION</h6></a> 
-                </div>
-                <div class="col-lg-3 col-sm-6" style="text-align: center;">
-                    <img src = "images/model.png">
-                    <br>
-                   <a href="#model" style="color: white;"><h6 style="padding-top: 10px;padding-bottom: 10px;">MODEL</h6></a> 
-                </div>
-                <div class="col-lg-3 col-sm-6" style="text-align: center;">
-                    <img src = "images/workflow.png">
-                    <br>
-                   <a href="#workflow" style="color: white;"><h6 style="padding-top: 10px;padding-bottom: 10px;">WORKFLOW</h6></a> 
-                </div>
-                <div class="col-lg-3 col-sm-6" style="text-align: center;">
-                    <img src = "images/results.png">
-                    <br>
-                   <a href="#results" style="color: white;"><h6 style="padding-top: 10px;padding-bottom: 10px;">RESULTS</h6></a> 
-                </div>
-               </div>
-               <br>-->
+            
             <div class="row">
                 <h2><b>Abstract</b></h2>
                 <div class="col-md-12 text-center order-1">
@@ -113,7 +91,7 @@
                     <h4 style="text-align: justify; font-weight: 500; " id = "idea">
                         We have seen many people buy clothes online and due to this, it is difficult to try clothes and see how they look in those clothes. So here at Drishti we have created a Machine Learning based solution named Virtual Try On Network (VIRTUON) to solve this issue. We require only 2 pictures for cloth transfer one is of the person on which we have to try cloth and another is of person from where cloth is needed to segment.
 
-                       </h4>
+                 </h4>
                 </div>
             </div>
             <div class="row">
@@ -150,13 +128,7 @@
 
 <!-- End -->
 
-<!-- <div class="row container">
-<div class="col-lg-4 col-md-4"></div>
-    <div class="col-lg-8 col-md-8 col-sm-12">
-        <img  src = "images/virtuon1.jpeg"/>
-    </div>
-    <div class="col-lg-4 col-md-4"></div>
-</div> -->
+
 
 <div class="row " style = " padding-top: 2%;">
     <div class="col-lg-1 col-md-3"></div>
@@ -180,72 +152,6 @@
 </div>
 
 
-           <!-- <div class="row" >
-                   <div class="col-lg-5 col-md-12 text-center order-lg-1 order-2"style="padding-top: 40px;">
-                        <img class="img-fluid gisa1" src="images/gisa.png" alt="gisa pic" >
-                    </div>
-                    <div class="col-lg-7 col-md-12 order-lg-2 order-1"style="padding-top: 50px;">
-                    <h2 style="text-align: center; font-weight: 600; " id = "gesture">GESTURE RECOGNITION</h2>
-                    <p style="text-align: justify; font-weight: 500; " >
-                        Sign language of differently abled people is mostly composed of hand gestures. Gesture recognition is a 
-                        technique that uses the concepts of computer vison which is used for the interaction between human
-                        and computer or it can be for any automation implementation purpose. Further converting these gestures
-                        to text and speech so that it can be easily understood by others.
-                    </div>
-            </div>
-            <br>
-            <div class = "row">
-                <div class = "col-lg-8 col-md-12" style = "padding-top: 40px;">
-                    <h2 style="text-align: center; font-weight: 600;" id = "model">MODEL</h2>
-                    <p style = "text-align: justify; font-weight: 500; " >
-                        Model for gesture recognition was trained for the following techniques:
-                    </p>
-                    <ol style="text-align: justify; font-weight: 500; ">
-                        <li>Basic Convolutional Neural Networks(CNNs)</li>
-                        <li>SVM(Support Vector Machines)</li>
-                        <li>Object Path Tracking for handwritten text recognition</li>
-                        <li>Long Short Term Memory(LSTM)</li>
-                        <li>Tacotron(GRU+RNN) for text-to-speech conversion</li>
-                    </ol>
-                </div>
-                <div class = "col-lg-4 col-md-12 text-center" style ="padding-top: 50px;">
-                    <img class = "img-fluid gisa2" src = "images/cnn.png" alt="model pic" >
-                </div>"
-            </div>
-            <br><br>
-            <div class="row" >
-                <div class="col-lg-5 col-md-12 text-center order-lg-1 order-2"style="padding-top: 40px;">
-                     <img class="img-fluid flowchart" src="images/GISA/flowchart.jpg" alt="gisa pic" >
-                 </div>
-                 <div class="col-lg-7 col-md-12 order-lg-2 order-1">
-                 <h2 style="text-align: center; font-weight: 600; padding-top: 5%;" id = "workflow">WORKFLOW</h2>
-                    <ul style ="text-align: justify; font-weight: 500; ">
-                        <li>The cameras capture the gestures and store it in a database. </li>
-                        <li>The model is trained using convolutional neural network uses the gesture data
-                             in database with phrases corresponding to the given gesture. </li>
-                        <li>If the sign signal from the feed matches the trained gesture, the phrase is shown as text on the screen. </li>
-                        <li>This text is transferred as string and converted to speech using suitable API in mp3 format.</li>
-                    </ul>
-                </div>
-         </div>
-         <br><br>
-         <div class = "row">
-            <div class = "col-lg-8 col-md-12" style = "padding-top: 40px;">
-                <h2 style="text-align: center; font-weight: 600;" id = "results">RESULTS</h2>
-                <ul style="text-align: justify; font-weight: 500; ">
-                    <li>Accuracy of 100% was obtained on numeric(0-9) gestures.</li>
-                    <li>Accuracy of 90% was obtained on alphabet gestures trained for 10 letters(a,g,h,l,o,q,v,w,y,z)</li>
-                </ul>
-            </div>
-            <div class = "col-lg-4 col-md-12" style ="padding-top: 50px;">
-                <img class = "img-fluid gisa" src = "images/GISA/3.png" alt="model pic" >
-            </div>"
-        </div>
-        <br>
-            <div style="text-align: center;font-size: 20px; font-weight: bold;padding-top: 20px;">
-                <a href="#top"><button type="button" class="btn btn-info btn-lg" style="font-size: 18px; font-weight: bold; ">BACK TO TOP</button></a>
-            </div>
-            <br> -->
         </div>
           
     </body>
